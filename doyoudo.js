@@ -7,4 +7,4 @@ function doyoudo(){
 	wtiframe.setAttribute("fastforward","false");
 	wtiframe.setAttribute("switchwindow","false");
 }
-setTimeout(doyoudo,1000);
+window.onload = doyoudo();
